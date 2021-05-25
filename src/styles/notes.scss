@@ -1,0 +1,24 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+.notes-list {
+  margin: 1.5rem 0;
+  h5 {
+    text-align: center;
+  }
+
+  .note-list {
+    margin: 1rem auto;
+    display: grid;
+    grid-gap: 1rem;
+
+    @include media-breakpoint-between(md, xl) {
+      justify-content: space-around;
+      grid-template-columns: repeat(4, 18rem);
+    }
+
+    @include media-breakpoint-down(sm) {
+      justify-content: center;
+      grid-template-columns: repeat(1, 25rem);
+    }
+  }
+}

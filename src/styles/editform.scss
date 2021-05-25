@@ -1,0 +1,19 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import './custom/button-submit.scss';
+
+.section {
+  position: relative;
+  width: 80vw;
+  margin: 2rem auto;
+
+  .button-submit {
+    @include media-breakpoint-between(md, xl) {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    @include media-breakpoint-down(sm) {
+      left: 7.5rem;
+    }
+  }
+}

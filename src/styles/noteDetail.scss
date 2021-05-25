@@ -1,0 +1,17 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+.note-detail {
+  width: 90vw;
+  margin: 1rem auto;
+
+  .note-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .note-content {
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+}

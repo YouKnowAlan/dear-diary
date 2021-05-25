@@ -1,0 +1,16 @@
+//custom stylesheets
+@import './custom/customButton.scss';
+$font-size-brand: 1.5rem;
+
+.nav-bg {
+  background-color: $color1;
+  padding: 0.2rem;
+
+  .brand {
+    text-decoration: none !important;
+    color: $color4 !important;
+    font-size: $font-size-brand;
+    line-height: 1.4 * $font-size-brand;
+    font-family: 'Pacifico', cursive;
+  }
+}

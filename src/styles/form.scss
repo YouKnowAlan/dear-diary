@@ -1,0 +1,25 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import './custom/button-submit.scss';
+
+.section {
+  position: relative;
+  width: 80%;
+
+  .card-title {
+    text-align: center;
+  }
+
+  .stickerNotes {
+    width: 2rem;
+  }
+
+  .button-submit {
+    @include media-breakpoint-between(md, xl) {
+      left: 35%;
+    }
+
+    @include media-breakpoint-down(sm) {
+      left: 5rem;
+    }
+  }
+}

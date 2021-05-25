@@ -1,0 +1,32 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+$color1: #1a1a2e;
+$color4: #e94560;
+$icons-size: 1.3rem;
+
+// icons
+svg {
+  width: $icons-size;
+  height: $icons-size;
+  margin: 0.2rem 0.5rem;
+  cursor: pointer;
+  //   border: 2px solid black;
+}
+
+.favorite-remove-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.favorite-icon {
+  color: $color4;
+}
+
+.edit-icon {
+  text-align: right;
+}
+
+.remove-icon,
+.edit-icon {
+  color: $color1;
+}
